@@ -99,7 +99,6 @@ public String insert(SysUser user) {
 	return "用户增加";
 }
 ```
-
 将某个账号踢下线 (待到对方再次访问系统时会抛出`NotLoginException`异常)
 ``` java
 // 使账号id为10001的会话注销登录
